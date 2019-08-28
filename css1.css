@@ -1,0 +1,75 @@
+html {
+  margin: 6% 13% 10% 13%;
+  border: solid;
+}
+
+#hw {
+  text-align: center;
+  color: teal;
+  font-size: 4.1rem;
+  font-family: 'Nunito',sans-serif;
+}
+
+main {
+  padding: 3% 15% 10% 15%;
+  text-align: center;
+}
+
+main h3 {
+  color: #4f4e4e;
+  font-size: 1.9rem;
+  font-family: 'Cairo', sans-serif;
+}
+
+#topic-section {
+
+}
+
+@media only screen and (max-width: 576px) {
+  main h3 {
+    font-size: 0.95rem;
+  }
+  #hw {
+    font-size:1.5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  main h3 {
+    font-size: 1rem;
+  }
+  #hw {
+    font-size:1.7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  main h3 {
+    font-size: 1.3rem;
+  }
+  #hw {
+    font-size:2.2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  main h3 {
+    font-size: 1.7rem;
+  }
+  #hw {
+    font-size:3rem;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  html {
+      margin: 2% 5% 4% 5%;
+      border-style: none;
+  }
+  #hw {
+    font-size: 15.0vw;
+  }
+  main h3 {
+    font-size: 5.0vw;
+  }
+}
